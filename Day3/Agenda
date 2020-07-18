@@ -1,0 +1,237 @@
+Agenda
+
+
+BinarySearch
+x = 55
+
+{10,20,30,40,50,60,70}
+ ^         ^         ^
+  0        3         6
+
+
+{10,20,30,40,50,60,70}
+              ^  ^   ^
+              4  5   6
+
+
+{10,20,30,40,50,60,70}
+                 ^5l  
+              ^4r
+              ^4 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LinearSearch in Array
+
+
+fun(int a){
+
+    return a*a;
+
+ }
+
+
+
+
+
+
+{10,20,30,40,50,55,60}; ;; 40 idx , otherwise -1
+           ^  
+            3 return; break
+
+
+
+--------
+
+
+|-------
+|-------
+|-------
+
+for(  ){
+    for(   ){
+        for (){
+            n^3
+        }
+    }
+}
+
+n^2
+
+
+LinearSearch ===> n
+
+//Incoming sorted, 
+
+BinarySearch
+x = 50
+
+{10,20,30,40,50,60,70}
+ ^         ^         ^
+  0        3         6
+
+
+{10,20,30,40,50,60,70}
+              ^  ^   ^
+              4  5   6
+
+
+{10,20,30,40,50,60,70}
+              ^4l  
+              ^4r
+              ^4 mid//yes   return mid;
+
+          O(log n)    
+
+
+
+int x = 70;
+
+{10,20,30,40,50,60,70,80}
+ ^         ^            ^
+ 0         3            7
+
+
+{10,20,30,40,50,60,70,80}
+              ^  ^     ^
+              4  5      7
+
+
+{10,20,30,40,50,60,70,80}
+                    ^  ^
+                    6  7
+                    ^mid   //return mid;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+x = 10
+  0  1  2  3  4  5  6  7
+{10,10,20,20,30,40,40,50}
+ ^         ^           ^
+ l         m            r
+
+
+{10,10,20,20,30,40,40,50}
+ ^   ^  ^           
+ l   m  r               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Discuss a bit of about Time Complexity
+
+BinarySearch in Array
+    |--upper bound
+    |--lower bound
+
+Reverse the array
+
+
+{10,20,30,40,50,60,70,80}
+
+{80,70,60,50,40,30,20,10}
+           ^  ^
+
+
+
+
+
+
+Rotate
+
+{10,20,30,40,50}
+
+by factor  = 1 : {20,30,40,50,10}
+by factor  = 2 : {30,40,50,10,20}
+by factor  = 3 : {40,50,10,20,30}
+by factor  = 4 : {50,10,20,30,40}
+by factor  = 5 : {10,20,30,40,50} //5 original  === no effect
+by factor  = 6 : {20,30,40,50,10} // 6 = 1 ,, factor > arr.length , factor = factor%arr.length
+ 
+by factor  = -1 : {50,10,20,30,40} // -1 === 4., agar factor<0 , factor += arr.length
+
+
+
+{10,20,30,40,50} f = 2;
+    | (Reverseing the complete array)
+    V
+{50,40,30,20,10}    
+    || (reverse the first part , 5-2)
+     V
+{30,40,50,20,10} 
+    || (reverse the second part , 2 )
+     V
+{30,40,50,10,20} //desired state
+
+{30,40,50,10,20} final state
+
+
+
+
+
+
+
+
+
+
+
+
+
+

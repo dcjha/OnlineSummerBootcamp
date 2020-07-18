@@ -1,0 +1,72 @@
+LinkedList
+
+
+int arr[] = new int[20];
+//continous
+stack                    heap
+
+arr  = reff            [][][]    [][][][][]      occupied  []          occupied  [][][]           [][][]
+
+
+
+int arr[] = new int[3];
+
+stack        heap
+arr = afasff@434          [afasff@434][afasff@438][]
+
+
+
+
+LinkedList: 
+                         [*->][*->][*->]  occupied   [*->]  [][][][]      occupied  []          occupied  [][*->N][]           [][][]
+                                      |_______________|  |___________________________________________________|
+
+LinkedList{
+    int size
+    Node head
+    Node tail
+}
+
+
+Node
+{
+
+int data,
+Node next;
+
+}
+
+
+
+LL 10,20,30,40
+    H        T
+
+addlast 50
+
+Node nn = new Node();
+nn.data = 50;
+nn.next = null;
+tail = nn; //tail set
+
+size++; //size
+
+10 20 30  40 50
+  
+LL 10,20,30,40,50#
+                 ^
+    H           T
+
+
+LL _________empty______
+   tail
+    |
+    V
+   (50,null) size++;
+
+   head
+
+
+
+
+
+

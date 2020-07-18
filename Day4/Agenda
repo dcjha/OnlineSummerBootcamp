@@ -1,0 +1,44 @@
+Rotation
+upbound
+lower bound
+sorting 
+
+{10,20,15,5, 7,100,90}
+
+{5,20,15,10, 7,100,90}
+    ^               ^
+
+{(5,7),15,10, 20,100,90}
+        ^             ^
+
+{(5,7,10),15, 20,100,90}
+           ^          ^
+
+{(5,7,10,15, 20),90,100}
+                     ^^
+
+
+for(){
+
+      
+    for( range ){
+        sabsechotta, indexmin
+
+    }   
+
+    swap(sortingRangeStarngIndex,mini)
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

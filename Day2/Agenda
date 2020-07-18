@@ -1,0 +1,99 @@
+Agenda
+
+n = 4
+
+*
+**
+***
+****
+
+1
+23
+456
+78910
+
+    1
+    23
+    456
+78910
+
+
+
+
+
+
+
+
+   * sp = 3(n-1) star = 1
+  *** sp = 2(--) star = 3
+ ***** sp  = 1(--) star = 5 
+******* sp = 0(--) star = 7
+
+
+
+
+ 
+for(----n = 4-----/// i = 1; i<=n; i++){
+   
+    for(int sp =issp; sp>0; sp-- ){
+        print(" ")
+    }
+
+    for( ;star < isstar ; star = star++  ){
+        print("*")
+    }
+
+// enter
+star = start 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+for(--------line----: 1, 2 , 3, 4){
+
+    for(star print???? nth line , n baar){
+        print(*);
+    }
+
+//next line enter
+
+
+}
+
+
+
+
+
+
+
+
+
+Pattern
+for(for) ==>nested
+
+Arrays: linerar seach, avg , binary search
+
+Doubt
+
+
+
+// Array
+
+list---> 95,89, 64,68,68,90,56,100
+marks[] = [,,,,,,]

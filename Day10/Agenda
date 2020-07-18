@@ -1,0 +1,265 @@
+
+
+(K,V)
+
+
+.size()
+{ 
+    key 1: val1,
+    key 2: val2,
+    key 3: val3,
+}
+
+
+
+hashMap :
+markKaMap:
+{
+    maths:100,
+    Science : 90,
+    sst :40,
+    hindi : 70
+}
+
+=====================
+hm 
+K : v
+
+{
+    0: 10,
+    2: 20,
+    5: 7
+}
+
+
+
+[10 ,0, 20, 0, 0, 7 ]
+ 0      2         5 
+============================
+
+
+
+
+hm;
+markKaMap:
+{
+    maths:100,
+    Science : 90,
+    sst :40,
+    hindi : 70
+}
+
+hm.size();//length
+
+hm.put("english",80);
+unordered
+{
+    maths:100,
+    Science : 90,
+    english: 80
+    sst :40,
+    hindi : 70,
+}
+
+hm.put(english, 85);
+
+hm.containsKey(sanskrit) ==>false
+
+~~hm[english]~~
+
+hm.get(english) ==> 80
+//arr[6]
+
+hm.get(french) ==> Frenchmark nuull
+
+hm.remove(frenc)
+
+AL<String> keys = new AL<>(hm.keySet());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.getOrDefault();
+
+
+
+
+
+
+
+aaaaaabbaaaaaa, abbb
+
+
+
+
+
+a a a a a b b b b d d c g g g g g g g g g g c g g g g b a
+                                                        ^
+hm fill bana rhe hai
+{
+    a:6,
+    b:5,
+    d:2,
+    c:2
+    g:14
+}
+
+keysArray = [a,b,g,c,d]
+
+[a,b,g,c,d]
+         ^
+         key ke val (freq) ko check
+ a =6, maxf = 6, maxc = a
+ b=5 ,
+ g =14, maxf = 14,maxc = g
+c = 2 
+d = 2
+
+
+=======================
+
+mango
+goman
+mnago
+
+Krishnakant
+kaKrsnantih
+
+
+apple
+paple
+aplep
+
+==================================
+
+apaplepee                 
+s1                          s2
+{                        {}
+    a:2
+    p:3
+    l:1
+    e:3
+}
+ 
+
+epeapalep
+s2
+{
+    e:3
+    p:3
+    a:2
+    l:1
+    k: 5
+}
+
+keys1=[a, p, l , e]
+
+true:
+
+==========================================================
+
+apaplepee                 
+s1                        
+{
+    e:3
+    p:3
+    a:2
+    l:1
+    k: 5
+}
+
+s2
+epeapddalepeeeeeeeeeeeeeee
+            ^ 
+
+
+hms1.size() = 0
+
+
+
+
+
+
+
+
+
+HashMap
+Hashset
+Question
+
+maxFreqChar
+4 sum 
+Anagram
+subarray
+==========================\
+
+
+{2 3, 4 5, -1,,1}
+
+sum 9, 4element
+ 4 , 5,-1,1
+
+
+========================
+k
+hasset
+{
+a
+b
+v
+x
+}
+
+ nums = [1, 0, -1, 0, -2, 2], and target = 0.
+
+[
+  [-1,  0, 0, 1],
+  [-2, -1, 1, 2],
+  [-2,  0, 0, 2]
+] 
+
+
+ [1, 0, -1, 0, -2, 2].
+sort
+
+ol ad  il
+  
+
+-2, -1, 1, 2
+ -2 0 0 2
+
+ 6
+ i<= 6-4
+   0 1  2 3 4 5 
+ [-2,-1,0,0,1,2]
+
+        ^  j l h
+  j         ^
+  lo           l      
+  hi           h
+
+
+
+
+
+
+
+
+
